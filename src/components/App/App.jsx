@@ -9,9 +9,9 @@ function App() {
   });
 
   return (
-    <div className="mx-auto max-w-[767px]">
+    <div className="max-w-[767px] mx-auto bg-gray-100">
       <Navbar />
-      <div className=" py-1 px-4">{displayData}</div>
+      <div className="px-4 py-1">{displayData}</div>
     </div>
   );
 }
